@@ -150,7 +150,6 @@ ul li {
  }
 
 .course_quiz_detail{
-    background-color: lightblue;
     display: flex;
     flex-direction: column;
     padding: 20px;
@@ -158,18 +157,15 @@ ul li {
     margin-right: 250px;
     align-items: center;
     font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
 }
 
-.quiz_question{
-    background-color: #cacaca;
-    align-items: center;
-}
 
 .submit_answer{
     background-color: lightblue;
     color: black;
     padding: 10px;
-    border-radius: 5px;
+    border-radius: 3px;
 }
 
 .submit_answer:hover{
@@ -180,10 +176,21 @@ ul li {
 .finish_quiz{
     background-color: #D32f2f;
     color: white;
+    padding: 10px;
+    border-radius: 3px;
 }
 
 .finish_quiz:hover{
     background-color: #821b1b;
+}
+
+.options{
+    background-color: #cacaca;
+    padding: 20px;
+    text-align: left;
+    margin: 10px;
+    border-radius: 3px;
+    width: 300px;
 }
 
 
