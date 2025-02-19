@@ -3,32 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
     <title>Login - LMS</title>
 </head>
 <body>
-    <header>
+    <header class="header">
         <img src="logo.jpg" alt="LMS Logo" style="width: 100px; height: 100px;">
         <h1>LMS - Learning Management System</h1>
         <h2>LMS Login</h2>
     </header>
     <div>
-        <nav>
-            <a href="index.html">Homepage</a>
+        <nav class="navbar">
+            <a href="index.html" class="navbar-item">Homepage</a>
         </nav>
     </div>
     <main>
-        <form>
+        <form class="login-form">
             <label for="username">Username:</label>
-            <input type="text" id="username" name="username" required><br><br>
+            <input type="text" id="username" name="username" class="input-fields" required><br><br>
             
             <label for="password">Password:</label>
-            <input type="password" id="password" name="password" required><br><br>
+            <input type="password" id="password" name="password" class="input-fields" required><br><br>
             
-            <button type="submit" formaction="course_view.html">Login</button><br><br>
-            <a href="#">Forgot Password?</a>
+            <button type="submit" formaction="course_view.html" class="login-button">Login</button><br><br>
+            <a href="#" class="forgot-password">Forgot Password?</a>
         </form>
     </main>
-    <footer>
+    <footer class="footer">
         <p>&copy; 2025 LMS. All rights reserved.</p>
     </footer>
 </body>
