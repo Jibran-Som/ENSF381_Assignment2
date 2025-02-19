@@ -114,3 +114,8 @@ h1 {
 .decline-button:hover{
     background-color: #821b1b;
 }
+
+.profile-picture{
+    border: 2px solid black;
+    border-radius: 50%;
+}
