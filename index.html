@@ -3,27 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
     <title>LMS Homepage</title>
 </head>
 <body>
-    <header>
+    <header class="header">
         <img src="logo.jpg" alt="LMS Logo" style="width: 100px; height: 100px;">
         <h1>LMS - Learning Management System</h1>
     </header>
 
     <div>
-        <nav>
-            <a href="login.html">Login</a> |
-            <a href="leaderboard.html">Leaderboard</a> |
-            <a href="#about">About LMS</a>
+        <nav class="navbar">
+            <a href="login.html" class="navbar-item">Login</a> |
+            <a href="leaderboard.html" class="navbar-item">Leaderboard</a> |
+            <a href="#about" class="navbar-item">About LMS</a>
         </nav>
     </div>
 
-    <main>
+    <main class="main">
         <section id="about">
-            <h2>About LMS</h2>
+            <h2 style="color: #004080; font-family: Arial, Helvetica, sans-serif;">About LMS</h2>
             <p>The Learning Management System (LMS) helps students and instructors manage courses, quizzes, and track performance efficiently.</p>
-            <p>Key Features:</p>
+            <p style="font-weight: bold;">Key Features:</p>
             <ul>
                 <li>Enroll in courses</li>
                 <li>Attempt quizzes</li>
@@ -32,7 +33,7 @@
         </section>
     </main>
 
-    <footer>
+    <footer class="footer">
         <p>&copy; 2025 LMS. All rights reserved.</p>
     </footer>
 </body>
