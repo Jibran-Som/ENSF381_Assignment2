@@ -35,7 +35,7 @@ h1 {
     background-color: #d4d4d4;
     text-align: center;
     padding: 20px;
-    margin: 20px;
+    /*margin: 20px;*/
     font-family: Arial, Helvetica, sans-serif;
 }
 .footer{
@@ -119,3 +119,20 @@ h1 {
     border: 2px solid black;
     border-radius: 50%;
 }
+
+
+ul {
+    list-style: inside;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 0;
+  }
+
+ul li {
+    list-style-type: "- ";
+    margin: 10px;
+    align-items: center;
+ }
+
+
