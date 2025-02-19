@@ -12,6 +12,13 @@ h1 {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+h2 {
+    color: #004080;
+    text-align: center;
+    /*padding: 20px;*/
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 .navbar{
     display: flex;
     flex-direction: row;
@@ -55,6 +62,8 @@ h1 {
     margin-left: 150px;
     margin-right: 150px;
     border-radius: 30px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+
 }
 
 .input-fields{
@@ -65,9 +74,12 @@ h1 {
 
 }
 
+
+
 .login-button{
     background-color: #008000;
     color: white;
+    
 }
 
 .login-button:hover{
@@ -75,6 +87,7 @@ h1 {
 }
 
 .forgot-password{
+    background-color: transparent; 
     color: #004080;
     text-decoration: none;
 }
@@ -95,6 +108,7 @@ h1 {
     padding: 20px;
     margin: 15px;
     border-radius: 10px;
+    border-radius: 2px;
 }
 
 .accept-button{
@@ -134,5 +148,48 @@ ul li {
     margin: 10px;
     align-items: center;
  }
+
+.course_quiz_detail{
+    background-color: lightblue;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin-left: 250px;
+    margin-right: 250px;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.quiz_question{
+    background-color: #cacaca;
+    align-items: center;
+}
+
+.submit_answer{
+    background-color: lightblue;
+    color: black;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.submit_answer:hover{
+    background-color: darkblue;
+    color: white;
+}
+
+.finish_quiz{
+    background-color: #D32f2f;
+    color: white;
+}
+
+.finish_quiz:hover{
+    background-color: #821b1b;
+}
+
+
+
+
+
+
 
 
