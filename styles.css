@@ -14,8 +14,7 @@ h1 {
 h2 {
     color: #004080;
     text-align: center;
-
-    /*padding: 20px;*/
+    padding: 20px;
 }
 
 .navbar{
@@ -64,6 +63,7 @@ h2 {
 
 .input-fields{
     background-color: lightyellow;
+    margin-top: 10px;
     padding: 10px;
     border-radius: 5px;
     border: darkgrey, 3px;
@@ -90,8 +90,7 @@ h2 {
     color: white;
     margin: 20px 10px 10px 10px;
     padding: 10px;
-    border-radius: 3px;
-    
+    border-radius: 3px;    
 }
 
 .login-button:hover{
@@ -170,8 +169,8 @@ ul li {
     display: flex;
     flex-direction: column;
     padding: 20px;
-    margin-left: 250px;
-    margin-right: 250px;
+    margin-left: 25px;
+    margin-right: 25px;
     align-items: center;
     text-align: center;
 }
@@ -186,7 +185,8 @@ ul li {
     background-color: lightblue;
     color: black;
     padding: 10px;
-    border-radius: 3px;
+    border-radius: 5px;
+    border-color: lightblue;
 }
 
 .submit_answer:hover{
@@ -199,6 +199,7 @@ ul li {
     color: white;
     padding: 10px;
     border-radius: 3px;
+    border-color: #d32f2f;
 }
 
 .finish_quiz:hover{
